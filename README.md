@@ -1,5 +1,3 @@
-Claro, aquí está un paso a paso para descargar un proyecto, ejecutar `pnpm`, y configurar la base de datos:
-
 ### 1. Descargar el Proyecto
 
 1. **Clona el Repositorio**:
