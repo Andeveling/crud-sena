@@ -1,0 +1,14 @@
+# Definir el compose solo para mysql 
+services:
+  mysql:
+    image: mysql:8.0.33
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: crud
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    ports:
+      - 3306:3306
+    volumes:
+      - ./db/mysql:/var/lib/mysql
